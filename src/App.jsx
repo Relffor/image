@@ -22,7 +22,7 @@ const SIZES = [
   { label: '768 × 1024', width: 768, height: 1024 },
 ]
 
-const API_URL = 'https://Relffor.pythonanywhere.com'
+const API_URL = 'https://Relffor.pythonanywhere.com/api'
 
 async function fetchJson(url, options) {
   const res = await fetch(url, options)
@@ -353,3 +353,4 @@ function App() {
 }
 
 export default App
+
